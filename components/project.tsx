@@ -37,12 +37,12 @@ export default function Project({ title, description, tags, imageUrl, url}:
                 scale: scaleProgress,
                 opacity: opacityProgress
             }}
-            className='group mb-3 sm:mb-8'>
+            className='group mb-3 sm:mb-7'>
 
-            <article className=' relative bg-gray-100 max-w-[42rem] borderBlack overflow-hidden sm:pr-8 rounded-lg hover:bg-gray-200 transition dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-20
+            <article className='relative pb-40 sm:pb-12 bg-gray-100 max-w-[42rem] borderBlack overflow-hidden sm:pr-8 rounded-lg hover:bg-gray-200 transition dark:bg-white dark:bg-opacity-10 dark:hover:bg-opacity-20
             dark:text-white'>
 
-                <div className='flex flex-col px-5 pt-4 pb-7 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] sm:h-[20rem] h-full sm:group-even:ml-[20rem]'>
+                <div className='flex flex-col px-5 py-5 sm:py-7 sm:max-w-[50%] sm:h-[20rem] h-full sm:group-even:ml-[20rem]'>
                     <h3 className='text-2xl font-semibold'>{title}</h3>
                     <p className='my-2 text-sm leading-relaxed text-gray-700 dark:text-white dark:text-opacity-70'>{description}</p>
                     <ul className='flex flex-wrap mt-4 gap-2 sm:mt-auto'>
@@ -55,7 +55,7 @@ export default function Project({ title, description, tags, imageUrl, url}:
                 <Image
                     src={imageUrl}
                     alt={title}
-                    className='absolute hidden sm:block top-8 -right-40 w-[28rem] rounded-t-2xl shadow-2xl group-even:-right-[initial] group-even:-left-40 
+                    className='absolute sm:block top-20 -right-40 w-[28rem] rounded-t-2xl shadow-2xl group-even:-right-[initial] group-even:-left-40 
                 transition
                 group-hover:scale-[1.05]
 

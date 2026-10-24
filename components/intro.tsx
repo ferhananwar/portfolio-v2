@@ -41,9 +41,9 @@ export default function Intro() {
                 >
                     <span className="font-bold">Hi, I'm Ferhan.</span> I'm a{" "}
                     <span className="font-bold">Web Developer</span> based in {" "}
-                    <span className='italic'>Toronto, ON, Canada. </span> I have a{" "}
+                    <span className='italic'>Bangladesh, Dhaka, Uttara. </span> I have a{" "}
                     <span className="font-bold">Bachelor's Degree in Computer Science</span> from {" "}
-                    <span className="underline">Toronto Metropolitan University,</span> and I have a passion for building visually pleasing{" "}
+                    <span className="underline"><a href="https://www.torontomu.ca/" target="_blank" rel="noopener noreferrer">Toronto Metropolitan University,</a></span> and I have a passion for building visually pleasing{" "}
                     <span className="italic">sites & apps</span>. My focus is{" "}
                     <span className="underline">React (Next.js)</span>.
                 </motion.p>
@@ -61,7 +61,7 @@ export default function Intro() {
                 {/* First use of group in tailwind css */}
                 <Link href="#contact" className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'>
                     Contact me here
-                    <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
+                    <BsArrowRight className='scale-125 translate-y-[0.1rem] opacity-70 group-hover:translate-x-2 transition' />
                 </Link>
 
                 <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white dark:bg-opacity-10 dark:text-white dark:text-opacity-75' href="/Resume.pdf" target="_blank" rel="nonreferrer">

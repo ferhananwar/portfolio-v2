@@ -4,7 +4,7 @@
 
 // non-export functions would not work with "@/", would need brackets instead { Header }
 import Header from "@/components/header"; 
-import "./globals.css";
+import "@/app/globals.css";
 import { Quicksand } from "next/font/google";
 import Footer from "@/components/footer"
 import Toaster from "react-hot-toast";
